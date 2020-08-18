@@ -16,5 +16,7 @@ class Outcome
       puts "#{self.name2} wins with a score of #{self.score2}/3!"
       puts "#{self.name1}! You lost all your lives, dipshit."
     end
+    puts "--------- GAME OVER ---------"
+    puts "Good bye!"
   end
 end

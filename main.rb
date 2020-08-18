@@ -20,6 +20,7 @@ while p1.lives > 0 && p2.lives > 0
     p2.shit
   end
   puts "#{p1.name}: #{p1.lives}/3 vs #{p2.name}: #{p2.lives}/3"
+  puts "--------- NEW TURN ---------"
 end
 
 game = Outcome.new(p1.name, p2.name, p1.lives, p2.lives)
